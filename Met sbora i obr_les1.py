@@ -23,5 +23,5 @@ print('For user', user, f'there are {n} repository/-ies:')
 for i in range(n):
     print(j_data[i]['name'])
 
-# with open('les1_to_json.json', 'w') as f:
-#     json.dump(j_data, f)
+with open('les1_to_json.json', 'w') as f:
+    json.dump(j_data, f)
