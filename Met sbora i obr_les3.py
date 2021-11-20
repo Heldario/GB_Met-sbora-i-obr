@@ -90,6 +90,7 @@ while tag_next == 'Дальше':
                            "salary_min": salary_min,
                            "salary_avg": salary_avg,
                            "salary_max": salary_max,
+                           "salary_text": salary_text,
                            "link": link}
 
                 # Заполняем БД вакансиями
